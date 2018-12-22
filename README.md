@@ -7,6 +7,6 @@ To excecute the program, make the project in your build fold, then you can do th
     
     $./Thread forward inputfile.txt outputfile.csv
     
-    $mpirun -np 8 forward inputfile.txt outputfile.csv
+    $mpirun -np 8 MPI forward inputfile.txt outputfile.csv
     
 *forward means normal FT, backward means Inverse FT.
